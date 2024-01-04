@@ -1,0 +1,256 @@
+{
+  "items": [
+    {
+      "id": "realme_c67_4g-12741",
+      "name": "C67 4G",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/realme-c67-lte.jpg",
+      "price":"199",
+      "description": "Realme C67 4G Android smartphone. Announced Dec 2023. Features 6.72″  display, Snapdragon 685 chipset, 5000 mAh battery, 256 GB storage, 8 GB RAM."
+    },
+    {
+      "id": "realme_c67-12728",
+      "name": "C67",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/realme-c67-5g.jpg",
+      "price":"199",
+      "description": "Realme C67 Android smartphone. Announced Dec 2023. Features 6.72″  display, Dimensity 6100+ chipset, 5000 mAh battery, 128 GB storage, 6 GB RAM."
+    },
+    {
+      "id": "realme_v50s-12703",
+      "name": "V50s",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/realme-v50s.jpg",
+      "price":"199",
+      "description": "Realme V50s Android smartphone. Announced Dec 2023. Features 6.72″  display, Dimensity 6100+ chipset, 5000 mAh battery, 256 GB storage, 8 GB RAM."
+    },
+    {
+      "id": "realme_gt5_pro-12646",
+      "name": "GT5 Pro",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/realme-gt5-pro.jpg",
+      "price":"199",
+      "description": "Realme GT5 Pro Android smartphone. Announced Dec 2023. Features 6.78″  display, Snapdragon 8 Gen 3 chipset, 5400 mAh battery, 1024 GB storage, 16 GB RAM."
+    },
+    {
+      "id": "realme_narzo_60x-12542",
+      "name": "Narzo 60x",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-60x-5g.jpg",
+      "price":"199",
+      "description": "Realme Narzo 60x Android smartphone. Announced Sep 2023. Features 6.72″  display, Dimensity 6100+ chipset, 5000 mAh battery, 128 GB storage, 6 GB RAM."
+    },
+    {
+      "id": "realme_gt5_240w-12529",
+      "name": "GT5 240W",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/realme-gt-5-240w.jpg",
+      "price":"199",
+      "description": "Realme GT5 240W Android smartphone. Announced Aug 2023. Features 6.74″  display, Snapdragon 8 Gen 2 chipset, 4600 mAh battery, 1024 GB storage, 24 GB RAM."
+    },
+    {
+      "id": "realme_gt5-12528",
+      "name": "GT5",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/realme-gt5-150w.jpg",
+      "price":"199",
+      "description": "Realme GT5 Android smartphone. Announced Aug 2023. Features 6.74″  display, Snapdragon 8 Gen 2 chipset, 5240 mAh battery, 512 GB storage, 16 GB RAM."
+    },
+    {
+      "id": "realme_11x-12519",
+      "name": "11x",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/realme-11x-5g.jpg",
+      "price":"199",
+      "description": "Realme 11x Android smartphone. Announced Aug 2023. Features 6.72″  display, Dimensity 6100+ chipset, 5000 mAh battery, 128 GB storage, 8 GB RAM."
+    },
+    {
+      "id": "realme_11_4g-12445",
+      "name": "11 4G",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/realme-11-4g-.jpg",
+      "price":"199",
+      "description": "Realme 11 4G Android smartphone. Announced Jul 2023. Features 6.4″  display, Helio G99 chipset, 5000 mAh battery, 256 GB storage, 8 GB RAM, Corning Gorilla Glass 5."
+    },
+    {
+      "id": "realme_11_5g-12444",
+      "name": "11 5G",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/realme-11-5g-tw.jpg",
+      "price":"199",
+      "description": "Realme 11 5G Android smartphone. Announced Jul 2023. Features 6.72″  display, Dimensity 6100+ chipset, 5000 mAh battery, 256 GB storage, 8 GB RAM."
+    },
+    {
+      "id": "realme_c51-12527",
+      "name": "C51",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/realme-c51.jpg",
+      "price":"199",
+      "description": "Realme C51 Android smartphone. Announced Jul 2023. Features 6.74″  display, Unisoc Tiger T612 chipset, 5000 mAh battery, 128 GB storage, 4 GB RAM."
+    },
+    {
+      "id": "realme_c53_(india)-12419",
+      "name": "C53 (India)",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/realme-c53-india.jpg",
+      "price":"199",
+      "description": "Realme C53 (India) Android smartphone. Announced Jul 2023. Features 6.74″  display, Unisoc Tiger T612 chipset, 5000 mAh battery, 128 GB storage, 6 GB RAM."
+    },
+    {
+      "id": "realme_pad_2-12426",
+      "name": "Pad 2",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/realme-pad2.jpg",
+      "price":"199",
+      "description": "Realme Pad 2 Android tablet. Announced Jul 2023. Features 11.5″  display, Helio G99 chipset, 8360 mAh battery, 256 GB storage, 8 GB RAM."
+    },
+    {
+      "id": "realme_gt3-12120",
+      "name": "GT3",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/realme-gt-neo5.jpg",
+      "price":"199",
+      "description": "Realme GT3 Android smartphone. Announced Feb 2023. Features 6.74″  display, Snapdragon 8+ Gen 1 chipset, 4600 mAh battery, 1024 GB storage, 16 GB RAM."
+    },
+    {
+      "id": "realme_narzo_60_pro-12396",
+      "name": "Narzo 60 Pro",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo60-pro-5g.jpg",
+      "price":"199",
+      "description": "Realme Narzo 60 Pro Android smartphone. Announced Jul 2023. Features 6.7″  display, Dimensity 7050 chipset, 5000 mAh battery, 1024 GB storage, 12 GB RAM, Double-reinforced glass."
+    },
+    {
+      "id": "realme_narzo_60-12395",
+      "name": "Narzo 60",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo60-5g.jpg",
+      "price":"199",
+      "description": "Realme Narzo 60 Android smartphone. Announced Jul 2023. Features 6.43″  display, Dimensity 6020 chipset, 5000 mAh battery, 256 GB storage, 8 GB RAM, Corning Gorilla Glass 5."
+    },
+    {
+      "id": "realme_c53-12310",
+      "name": "C53",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/realme-c53.jpg",
+      "price":"199",
+      "description": "Realme C53 Android smartphone. Announced May 2023. Features 6.74″  display, Unisoc Tiger T612 chipset, 5000 mAh battery, 256 GB storage, 8 GB RAM."
+    },
+    {
+      "id": "realme_narzo_n53-12280",
+      "name": "Narzo N53",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-n53.jpg",
+      "price":"199",
+      "description": "Realme Narzo N53 Android smartphone. Announced May 2023. Features 6.74″  display, Unisoc Tiger T612 chipset, 5000 mAh battery, 128 GB storage, 8 GB RAM."
+    },
+    {
+      "id": "realme_11_pro+-12246",
+      "name": "11 Pro+",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/realme-11-pro-plus.jpg",
+      "price":"199",
+      "description": "Realme 11 Pro+ Android smartphone. Announced May 2023. Features 6.7″  display, Dimensity 7050 chipset, 5000 mAh battery, 1024 GB storage, 12 GB RAM."
+    },
+    {
+      "id": "realme_11_pro-12261",
+      "name": "11 Pro",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/realme-11-pro.jpg",
+      "price":"199",
+      "description": "Realme 11 Pro Android smartphone. Announced May 2023. Features 6.7″  display, Dimensity 7050 chipset, 5000 mAh battery, 512 GB storage, 12 GB RAM."
+    },
+    {
+      "id": "realme_11-12262",
+      "name": "11",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/realme-11.jpg",
+      "price":"199",
+      "description": "Realme 11 Android smartphone. Announced May 2023. Features 6.43″  display, Dimensity 6020 chipset, 5000 mAh battery, 256 GB storage, 12 GB RAM."
+    },
+    {
+      "id": "realme_narzo_n55-12227",
+      "name": "Narzo N55",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-n55.jpg",
+      "price":"199",
+      "description": "Realme Narzo N55 Android smartphone. Announced Apr 2023. Features 6.72″  display, MT6769H Helio G88 chipset, 5000 mAh battery, 128 GB storage, 8 GB RAM."
+    },
+    {
+      "id": "realme_gt_neo5_se-12187",
+      "name": "GT Neo5 SE",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/realme-gt-neo5-se.jpg",
+      "price":"199",
+      "description": "Realme GT Neo5 SE Android smartphone. Announced Apr 2023. Features 6.74″  display, Snapdragon 7+ Gen 2 chipset, 5500 mAh battery, 1024 GB storage, 16 GB RAM."
+    },
+    {
+      "id": "realme_10t-12174",
+      "name": "10T",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/realme-10t.jpg",
+      "price":"199",
+      "description": "Realme 10T Android smartphone. Announced Mar 2023. Features 6.6″  display, Dimensity 810 chipset, 5000 mAh battery, 256 GB storage, 8 GB RAM."
+    },
+    {
+      "id": "realme_c33_2023-12173",
+      "name": "C33 2023",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/realme-c33.jpg",
+      "price":"199",
+      "description": "Realme C33 2023 Android smartphone. Announced Mar 2023. Features 6.5″  display, Unisoc Tiger T612 chipset, 5000 mAh battery, 128 GB storage, 4 GB RAM."
+    },
+    {
+      "id": "realme_c55-12159",
+      "name": "C55",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/realme-c55.jpg",
+      "price":"199",
+      "description": "Realme C55 Android smartphone. Announced Mar 2023. Features 6.72″  display, MT6769H Helio G88 chipset, 5000 mAh battery, 256 GB storage, 8 GB RAM."
+    },
+    {
+      "id": "realme_gt_neo_5_240w-12067",
+      "name": "GT Neo 5 240W",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/realme-gt-neo5-240w.jpg",
+      "price":"199",
+      "description": "Realme GT Neo 5 240W Android smartphone. Announced Feb 2023. Features 6.74″  display, Snapdragon 8+ Gen 1 chipset, 4600 mAh battery, 1024 GB storage, 16 GB RAM."
+    },
+    {
+      "id": "realme_gt_neo_5-12066",
+      "name": "GT Neo 5",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/realme-gt-neo5.jpg",
+      "price":"199",
+      "description": "Realme GT Neo 5 Android smartphone. Announced Feb 2023. Features 6.74″  display, Snapdragon 8+ Gen 1 chipset, 5000 mAh battery, 256 GB storage, 16 GB RAM."
+    },
+    {
+      "id": "realme_v30-12114",
+      "name": "V30",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/realme-v30.jpg",
+      "price":"199",
+      "description": "Realme V30 Android smartphone. Announced Feb 2023. Features 6.5″  display, Mediatek chipset, 5000 mAh battery, 128 GB storage, 8 GB RAM."
+    },
+    {
+      "id": "realme_10s-12029",
+      "name": "10s",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/realme-10s-5g.jpg",
+      "price":"199",
+      "description": "Realme 10s Android smartphone. Announced Dec 2022. Features 6.6″  display, Dimensity 810 chipset, 5000 mAh battery, 256 GB storage, 8 GB RAM."
+    },
+    {
+      "id": "realme_v20-12025",
+      "name": "V20",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/realme-v20.jpg",
+      "price":"199",
+      "description": "Realme V20 Android smartphone. Announced Jun 2022. Features 6.5″  display, Dimensity 700 chipset, 5000 mAh battery, 128 GB storage, 8 GB RAM."
+    },
+    {
+      "id": "realme_10_pro+-11952",
+      "name": "10 Pro+",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/realme-10-pro-plus.jpg",
+      "price":"199",
+      "description": "Realme 10 Pro+ Android smartphone. Announced Nov 2022. Features 6.7″  display, Dimensity 1080 chipset, 5000 mAh battery, 256 GB storage, 12 GB RAM."
+    },
+    {
+      "id": "realme_10_pro-11978",
+      "name": "10 Pro",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/realme-10-pro.jpg",
+      "price":"199",
+      "description": "Realme 10 Pro Android smartphone. Announced Nov 2022. Features 6.72″  display, Snapdragon 695 5G chipset, 5000 mAh battery, 256 GB storage, 12 GB RAM."
+    },
+    {
+      "id": "realme_10_5g-11951",
+      "name": "10 5G",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/realme-10-5g.jpg",
+      "price":"199",
+      "description": "Realme 10 5G Android smartphone. Announced Nov 2022. Features 6.6″  display, Dimensity 700 chipset, 5000 mAh battery, 256 GB storage, 8 GB RAM."
+    },
+    {
+      "id": "realme_10-11950",
+      "name": "10",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/realme-10.jpg",
+      "price":"199",
+      "description": "Realme 10 Android smartphone. Announced Nov 2022. Features 6.4″  display, Helio G99 chipset, 5000 mAh battery, 256 GB storage, 8 GB RAM, Corning Gorilla Glass 5."
+    },
+    {
+      "id": "realme_c30s-11878",
+      "name": "C30s",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/realme-c30s.jpg",
+      "price":"199",
+      "description": "Realme C30s Android smartphone. Announced Sep 2022. Features 6.5″  display, 5000 mAh battery, 64 GB storage, 4 GB RAM."
+    }
+  ]
+}

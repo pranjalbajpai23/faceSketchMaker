@@ -1,0 +1,472 @@
+{
+"items":[
+  {
+    "id": "samsung_galaxy_a25-12555",
+    "name": "Galaxy A25",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a25.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy A25 Android smartphone. Announced Dec 2023. Features 6.5″  display, Exynos 1280 chipset, 5000 mAh battery, 256 GB storage, 8 GB RAM."
+  },
+  {
+    "id": "samsung_galaxy_a15_5g-12638",
+    "name": "Galaxy A15 5G",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a15-5g-new.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy A15 5G Android smartphone. Announced Dec 2023. Features 6.5″  display, Dimensity 6100+ chipset, 5000 mAh battery, 256 GB storage, 8 GB RAM."
+  },
+  {
+    "id": "samsung_galaxy_a15-12637",
+    "name": "Galaxy A15",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a15-lte-.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy A15 Android smartphone. Announced Dec 2023. Features 6.5″  display, Helio G99 chipset, 5000 mAh battery, 256 GB storage, 8 GB RAM."
+  },
+  {
+    "id": "samsung_galaxy_tab_a9+-12617",
+    "name": "Galaxy Tab A9+",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-a9-plus.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy Tab A9+ Android tablet. Announced Oct 2023. Features 11.0″  display, Snapdragon 695 5G chipset, 7040 mAh battery, 128 GB storage, 8 GB RAM."
+  },
+  {
+    "id": "samsung_galaxy_tab_a9-12616",
+    "name": "Galaxy Tab A9",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-a9.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy Tab A9 Android tablet. Announced Oct 2023. Features 8.7″  display, Helio G99 chipset, 5100 mAh battery, 128 GB storage, 8 GB RAM."
+  },
+  {
+    "id": "samsung_galaxy_s23_fe-12520",
+    "name": "Galaxy S23 FE",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s23-fe.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy S23 FE Android smartphone. Announced Oct 2023. Features 6.4″  display, Exynos 2200 chipset, 4500 mAh battery, 256 GB storage, 8 GB RAM, Corning Gorilla Glass 5."
+  },
+  {
+    "id": "samsung_galaxy_tab_s9_fe+-12609",
+    "name": "Galaxy Tab S9 FE+",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-s9-fe-plus-10-.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy Tab S9 FE+ Android tablet. Announced Oct 2023. Features 12.4″  display, Exynos 1380 chipset, 10090 mAh battery, 256 GB storage, 12 GB RAM."
+  },
+  {
+    "id": "samsung_galaxy_tab_s9_fe-12517",
+    "name": "Galaxy Tab S9 FE",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-s9-fe-10-.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy Tab S9 FE Android tablet. Announced Oct 2023. Features 10.9″  display, Exynos 1380 chipset, 8000 mAh battery, 256 GB storage, 8 GB RAM."
+  },
+  {
+    "id": "samsung_galaxy_a05s-12584",
+    "name": "Galaxy A05s",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a05s.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy A05s Android smartphone. Announced Sep 2023. Features 6.7″  display, Snapdragon 680 4G chipset, 5000 mAh battery, 128 GB storage, 6 GB RAM."
+  },
+  {
+    "id": "samsung_galaxy_a05-12583",
+    "name": "Galaxy A05",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a05.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy A05 Android smartphone. Announced Sep 2023. Features 6.7″  display, MT6769V chipset, 5000 mAh battery, 128 GB storage, 6 GB RAM."
+  },
+  {
+    "id": "samsung_galaxy_f34-12453",
+    "name": "Galaxy F34",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f34.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy F34 Android smartphone. Announced Aug 2023. Features 6.5″  display, Exynos 1280 chipset, 6000 mAh battery, 128 GB storage, 8 GB RAM, Corning Gorilla Glass 5."
+  },
+  {
+    "id": "samsung_galaxy_z_fold5-12418",
+    "name": "Galaxy Z Fold5",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-fold5-5g.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy Z Fold5 Android smartphone. Announced Jul 2023. Features 7.6″  display, Snapdragon 8 Gen 2 chipset, 4400 mAh battery, 1024 GB storage, 12 GB RAM."
+  },
+  {
+    "id": "samsung_galaxy_z_flip5-12252",
+    "name": "Galaxy Z Flip5",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-flip5-5g.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy Z Flip5 Android smartphone. Announced Jul 2023. Features 6.7″  display, Snapdragon 8 Gen 2 chipset, 3700 mAh battery, 512 GB storage, 8 GB RAM."
+  },
+  {
+    "id": "samsung_galaxy_tab_s9_ultra-12217",
+    "name": "Galaxy Tab S9 Ultra",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-s9-ultra-5g.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy Tab S9 Ultra Android tablet. Announced Jul 2023. Features 14.6″  display, Snapdragon 8 Gen 2 chipset, 11200 mAh battery, 1024 GB storage, 16 GB RAM, Corning Gorilla Glass."
+  },
+  {
+    "id": "samsung_galaxy_tab_s9+-12440",
+    "name": "Galaxy Tab S9+",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-s9-plus-5g.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy Tab S9+ Android tablet. Announced Jul 2023. Features 12.4″  display, Snapdragon 8 Gen 2 chipset, 10090 mAh battery, 512 GB storage, 12 GB RAM, Corning Gorilla Glass."
+  },
+  {
+    "id": "samsung_galaxy_tab_s9-12439",
+    "name": "Galaxy Tab S9",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-s9-5g.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy Tab S9 Android tablet. Announced Jul 2023. Features 11.0″  display, Snapdragon 8 Gen 2 chipset, 8400 mAh battery, 256 GB storage, 12 GB RAM, Corning Gorilla Glass."
+  },
+  {
+    "id": "samsung_galaxy_watch6_classic-12438",
+    "name": "Galaxy Watch6 Classic",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-watch6-classic.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy Watch6 Classic Android watch. Announced Jul 2023. Features 1.5″  display, Exynos W930 chipset, 425 mAh battery, 16 GB storage, 2 GB RAM, MIL-STD-810H compliant, Sapphire crystal."
+  },
+  {
+    "id": "samsung_galaxy_watch6-12437",
+    "name": "Galaxy Watch6",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-watch6.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy Watch6 Android watch. Announced Jul 2023. Features 1.5″  display, Exynos W930 chipset, 425 mAh battery, 16 GB storage, 2 GB RAM, MIL-STD-810H compliant, Sapphire crystal."
+  },
+  {
+    "id": "samsung_galaxy_m34_5g-11290",
+    "name": "Galaxy M34 5G",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m34-5g.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy M34 5G Android smartphone. Announced Jul 2023. Features 6.5″  display, Exynos 1280 chipset, 6000 mAh battery, 128 GB storage, 8 GB RAM, Corning Gorilla Glass 5."
+  },
+  {
+    "id": "samsung_galaxy_f54-12239",
+    "name": "Galaxy F54",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f54-5g.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy F54 Android smartphone. Announced Jun 2023. Features 6.7″  display, Exynos 1380 chipset, 6000 mAh battery, 256 GB storage, 8 GB RAM."
+  },
+  {
+    "id": "samsung_galaxy_a24_4g-12176",
+    "name": "Galaxy A24 4G",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a24-4g-2.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy A24 4G Android smartphone. Announced Apr 2023. Features 6.5″  display, Helio G99 chipset, 5000 mAh battery, 128 GB storage, 8 GB RAM."
+  },
+  {
+    "id": "samsung_galaxy_f14-12175",
+    "name": "Galaxy F14",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f14.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy F14 Android smartphone. Announced Mar 2023. Features 6.6″  display, Exynos 1330 chipset, 6000 mAh battery, 128 GB storage, 6 GB RAM, Corning Gorilla Glass 5."
+  },
+  {
+    "id": "samsung_galaxy_m54-12189",
+    "name": "Galaxy M54",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m54-5g.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy M54 Android smartphone. Announced Mar 2023. Features 6.7″  display, Exynos 1380 chipset, 6000 mAh battery, 256 GB storage, 8 GB RAM, Corning Gorilla Glass 5."
+  },
+  {
+    "id": "samsung_galaxy_a54-12070",
+    "name": "Galaxy A54",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a54.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy A54 Android smartphone. Announced Mar 2023. Features 6.4″  display, Exynos 1380 chipset, 5000 mAh battery, 256 GB storage, 8 GB RAM, Corning Gorilla Glass 5."
+  },
+  {
+    "id": "samsung_galaxy_a34-12074",
+    "name": "Galaxy A34",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a34.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy A34 Android smartphone. Announced Mar 2023. Features 6.6″  display, Dimensity 1080 chipset, 5000 mAh battery, 256 GB storage, 8 GB RAM, Corning Gorilla Glass 5."
+  },
+  {
+    "id": "samsung_galaxy_m14-12160",
+    "name": "Galaxy M14",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m14-5g-sm-m146.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy M14 Android smartphone. Announced Mar 2023. Features 6.6″  display, Exynos 1330 chipset, 6000 mAh battery, 128 GB storage, 6 GB RAM, Corning Gorilla Glass 5."
+  },
+  {
+    "id": "samsung_galaxy_s23_ultra-12024",
+    "name": "Galaxy S23 Ultra",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s23-ultra-5g.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy S23 Ultra Android smartphone. Announced Feb 2023. Features 6.8″  display, Snapdragon 8 Gen 2 chipset, 5000 mAh battery, 1024 GB storage, 12 GB RAM, Corning Gorilla Glass Victus 2."
+  },
+  {
+    "id": "samsung_galaxy_s23+-12083",
+    "name": "Galaxy S23+",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s23-plus-5g.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy S23+ Android smartphone. Announced Feb 2023. Features 6.6″  display, Snapdragon 8 Gen 2 chipset, 4700 mAh battery, 512 GB storage, 8 GB RAM, Corning Gorilla Glass Victus 2."
+  },
+  {
+    "id": "samsung_galaxy_s23-12082",
+    "name": "Galaxy S23",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s23-5g.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy S23 Android smartphone. Announced Feb 2023. Features 6.1″  display, Snapdragon 8 Gen 2 chipset, 3900 mAh battery, 512 GB storage, 8 GB RAM, Corning Gorilla Glass Victus 2."
+  },
+  {
+    "id": "samsung_galaxy_a14-12151",
+    "name": "Galaxy A14",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a14-4g.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy A14 Android smartphone. Announced Feb 2023. Features 6.6″  display, MT6769 Helio G80 chipset, 5000 mAh battery, 128 GB storage, 6 GB RAM."
+  },
+  {
+    "id": "samsung_galaxy_a14_5g-12004",
+    "name": "Galaxy A14 5G",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a14-5g.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy A14 5G Android smartphone. Announced Jan 2023. Features 6.6″  display, Exynos 1330 chipset, 5000 mAh battery, 128 GB storage, 8 GB RAM."
+  },
+  {
+    "id": "samsung_galaxy_f04-12054",
+    "name": "Galaxy F04",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f04-new.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy F04 Android smartphone. Announced Jan 2023. Features 6.5″  display, MT6765 Helio P35 chipset, 5000 mAh battery, 64 GB storage, 4 GB RAM."
+  },
+  {
+    "id": "samsung_galaxy_m04-12022",
+    "name": "Galaxy M04",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m04-.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy M04 Android smartphone. Announced Dec 2022. Features 6.5″  display, MT6765 Helio P35 chipset, 5000 mAh battery, 128 GB storage, 4 GB RAM."
+  },
+  {
+    "id": "samsung_galaxy_tab_a7_10_4_(2022)-11988",
+    "name": "Galaxy Tab A7 10.4 (2022)",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-a7-104-2020.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy Tab A7 10.4 (2022) Android tablet. Announced Nov 2022. Features 10.4″  display, Unisoc UMS512 T618 chipset, 7040 mAh battery, 64 GB storage, 4 GB RAM."
+  },
+  {
+    "id": "samsung_galaxy_a04e-11945",
+    "name": "Galaxy A04e",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a04e.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy A04e Android smartphone. Announced Oct 2022. Features 6.5″  display, MT6765 Helio P35 chipset, 5000 mAh battery, 128 GB storage, 4 GB RAM."
+  },
+  {
+    "id": "samsung_galaxy_tab_active4_pro-11840",
+    "name": "Galaxy Tab Active4 Pro",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-active4-pro.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy Tab Active4 Pro Android tablet. Announced Aug 2022. Features 10.1″  display, Snapdragon 778G 5G chipset, 7600 mAh battery, 128 GB storage, 4 GB RAM, MIL-STD-810H compliant, Corning Gorilla Glass 5."
+  },
+  {
+    "id": "samsung_galaxy_a04s-11803",
+    "name": "Galaxy A04s",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a04s.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy A04s Android smartphone. Announced Aug 2022. Features 6.5″  display, Exynos 850 chipset, 5000 mAh battery, 128 GB storage, 4 GB RAM."
+  },
+  {
+    "id": "samsung_galaxy_a04-11817",
+    "name": "Galaxy A04",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a04.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy A04 Android smartphone. Announced Aug 2022. Features 6.5″  display, MT6765 Helio P35 chipset, 5000 mAh battery, 128 GB storage, 8 GB RAM."
+  },
+  {
+    "id": "samsung_galaxy_z_fold4-11737",
+    "name": "Galaxy Z Fold4",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-fold4.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy Z Fold4 Android smartphone. Announced Aug 2022. Features 7.6″  display, Snapdragon 8+ Gen 1 chipset, 4400 mAh battery, 1024 GB storage, 12 GB RAM."
+  },
+  {
+    "id": "samsung_galaxy_z_flip4-11538",
+    "name": "Galaxy Z Flip4",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-flip4-5g.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy Z Flip4 Android smartphone. Announced Aug 2022. Features 6.7″  display, Snapdragon 8+ Gen 1 chipset, 3700 mAh battery, 512 GB storage, 8 GB RAM."
+  },
+  {
+    "id": "samsung_galaxy_watch5_pro-11749",
+    "name": "Galaxy Watch5 Pro",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-watch5pro.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy Watch5 Pro Android watch. Announced Aug 2022. Features 1.4″  display, Exynos W920 chipset, 590 mAh battery, 16 GB storage, 1.5 GB RAM, MIL-STD-810H compliant, Sapphire crystal."
+  },
+  {
+    "id": "samsung_galaxy_watch5-11748",
+    "name": "Galaxy Watch5",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-watch5.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy Watch5 Android watch. Announced Aug 2022. Features 1.4″  display, Exynos W920 chipset, 410 mAh battery, 16 GB storage, 1.5 GB RAM, MIL-STD-810H compliant, Sapphire crystal."
+  },
+  {
+    "id": "samsung_galaxy_a23_5g-11736",
+    "name": "Galaxy A23 5G",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a23-5g.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy A23 5G Android smartphone. Announced Aug 2022. Features 6.6″  display, Snapdragon 695 5G chipset, 5000 mAh battery, 128 GB storage, 8 GB RAM, Corning Gorilla Glass 5."
+  },
+  {
+    "id": "samsung_galaxy_m13_5g-11633",
+    "name": "Galaxy M13 5G",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m13-5g.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy M13 5G Android smartphone. Announced Jul 2022. Features 6.5″  display, Dimensity 700 chipset, 5000 mAh battery, 128 GB storage, 6 GB RAM, Corning Gorilla Glass 3."
+  },
+  {
+    "id": "samsung_galaxy_m13_(india)-11654",
+    "name": "Galaxy M13 (India)",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m13-4g-india.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy M13 (India) Android smartphone. Announced Jul 2022. Features 6.6″  display, Exynos 850 chipset, 6000 mAh battery, 128 GB storage, 6 GB RAM, Corning Gorilla Glass 5."
+  },
+  {
+    "id": "samsung_galaxy_a13_(sm_a137)-11665",
+    "name": "Galaxy A13 (SM-A137)",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a13-a137.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy A13 (SM-A137) Android smartphone. Announced Jun 2022. Features 6.6″  display, MT6769V chipset, 5000 mAh battery, 128 GB storage, 4 GB RAM, Corning Gorilla Glass 5."
+  },
+  {
+    "id": "samsung_galaxy_xcover6_pro-11600",
+    "name": "Galaxy Xcover6 Pro",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-xcover6-pro-r.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy Xcover6 Pro Android smartphone. Announced Jun 2022. Features 6.6″  display, Snapdragon 778G 5G chipset, 4050 mAh battery, 128 GB storage, 6 GB RAM, MIL-STD-810H compliant, Corning Gorilla Glass Victus+."
+  },
+  {
+    "id": "samsung_galaxy_f13-11624",
+    "name": "Galaxy F13",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f13.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy F13 Android smartphone. Announced Jun 2022. Features 6.6″  display, Exynos 850 chipset, 6000 mAh battery, 128 GB storage, 6 GB RAM, Corning Gorilla Glass 5."
+  },
+  {
+    "id": "samsung_galaxy_m13-11564",
+    "name": "Galaxy M13",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m13.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy M13 Android smartphone. Announced May 2022. Features 6.6″  display, Exynos 850 chipset, 5000 mAh battery, 128 GB storage, 4 GB RAM."
+  },
+  {
+    "id": "samsung_galaxy_tab_s6_lite_(2022)-11524",
+    "name": "Galaxy Tab S6 Lite (2022)",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/galaxy-tab-s6-lite-2022-lte-sm-p619-.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy Tab S6 Lite (2022) Android tablet. Announced May 2022. Features 10.4″  display, Snapdragon 732G chipset, 7040 mAh battery, 128 GB storage, 4 GB RAM."
+  },
+  {
+    "id": "samsung_galaxy_m53-11439",
+    "name": "Galaxy M53",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m53-5g.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy M53 Android smartphone. Announced Apr 2022. Features 6.7″  display, Dimensity 900 chipset, 5000 mAh battery, 256 GB storage, 8 GB RAM, Corning Gorilla Glass 5."
+  },
+  {
+    "id": "samsung_galaxy_s20_fe_2022-11459",
+    "name": "Galaxy S20 FE 2022",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s20-fe-5g.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy S20 FE 2022 Android smartphone. Announced Apr 2022. Features 6.5″  display, Snapdragon 865 5G chipset, 4500 mAh battery, 128 GB storage, 6 GB RAM, Corning Gorilla Glass 3."
+  },
+  {
+    "id": "samsung_galaxy_a73_5g-11257",
+    "name": "Galaxy A73 5G",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a73-5g.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy A73 5G Android smartphone. Announced Mar 2022. Features 6.7″  display, Snapdragon 778G 5G chipset, 5000 mAh battery, 256 GB storage, 8 GB RAM, Corning Gorilla Glass 5."
+  },
+  {
+    "id": "samsung_galaxy_a53_5g-11268",
+    "name": "Galaxy A53 5G",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a53-5g-.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy A53 5G Android smartphone. Announced Mar 2022. Features 6.5″  display, Exynos 1280 chipset, 5000 mAh battery, 256 GB storage, 8 GB RAM, Corning Gorilla Glass 5."
+  },
+  {
+    "id": "samsung_galaxy_a33_5g-11429",
+    "name": "Galaxy A33 5G",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a33-5g.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy A33 5G Android smartphone. Announced Mar 2022. Features 6.4″  display, Exynos 1280 chipset, 5000 mAh battery, 256 GB storage, 8 GB RAM, Corning Gorilla Glass 5."
+  },
+  {
+    "id": "samsung_galaxy_f23-11406",
+    "name": "Galaxy F23",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m23.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy F23 Android smartphone. Announced Mar 2022. Features 6.6″  display, Snapdragon 750G 5G chipset, 5000 mAh battery, 128 GB storage, 6 GB RAM, Corning Gorilla Glass 5."
+  },
+  {
+    "id": "samsung_galaxy_m33-11404",
+    "name": "Galaxy M33",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m33.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy M33 Android smartphone. Announced Mar 2022. Features 6.6″  display, Exynos 1280 chipset, 6000 mAh battery, 128 GB storage, 8 GB RAM, Corning Gorilla Glass 5."
+  },
+  {
+    "id": "samsung_galaxy_m23-11403",
+    "name": "Galaxy M23",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m23.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy M23 Android smartphone. Announced Mar 2022. Features 6.6″  display, Snapdragon 750G 5G chipset, 5000 mAh battery, 128 GB storage, 6 GB RAM."
+  },
+  {
+    "id": "samsung_galaxy_a23-11373",
+    "name": "Galaxy A23",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a23.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy A23 Android smartphone. Announced Mar 2022. Features 6.6″  display, Snapdragon 680 4G chipset, 5000 mAh battery, 128 GB storage, 8 GB RAM, Corning Gorilla Glass 5."
+  },
+  {
+    "id": "samsung_galaxy_a13-11402",
+    "name": "Galaxy A13",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a13.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy A13 Android smartphone. Announced Mar 2022. Features 6.6″  display, Exynos 850 chipset, 5000 mAh battery, 128 GB storage, 6 GB RAM, Corning Gorilla Glass 5."
+  },
+  {
+    "id": "samsung_galaxy_s22_ultra_5g-11251",
+    "name": "Galaxy S22 Ultra 5G",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s22-ultra-5g.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy S22 Ultra 5G Android smartphone. Announced Feb 2022. Features 6.8″  display, Exynos 2200 chipset, 5000 mAh battery, 1024 GB storage, 12 GB RAM, Corning Gorilla Glass Victus+."
+  },
+  {
+    "id": "samsung_galaxy_s22+_5g-11252",
+    "name": "Galaxy S22+ 5G",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s22-plus-5g.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy S22+ 5G Android smartphone. Announced Feb 2022. Features 6.6″  display, Exynos 2200 chipset, 4500 mAh battery, 256 GB storage, 8 GB RAM, Corning Gorilla Glass Victus+."
+  },
+  {
+    "id": "samsung_galaxy_s22_5g-11253",
+    "name": "Galaxy S22 5G",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s22-5g.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy S22 5G Android smartphone. Announced Feb 2022. Features 6.1″  display, Exynos 2200 chipset, 3700 mAh battery, 256 GB storage, 8 GB RAM, Corning Gorilla Glass Victus+."
+  },
+  {
+    "id": "samsung_galaxy_tab_s8_ultra-11274",
+    "name": "Galaxy Tab S8 Ultra",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-s8-ultra.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy Tab S8 Ultra Android tablet. Announced Feb 2022. Features 14.6″  display, Snapdragon 8 Gen 1 chipset, 11200 mAh battery, 512 GB storage, 16 GB RAM, Corning Gorilla Glass 5."
+  },
+  {
+    "id": "samsung_galaxy_tab_s8+-11342",
+    "name": "Galaxy Tab S8+",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-s8-plus.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy Tab S8+ Android tablet. Announced Feb 2022. Features 12.4″  display, Snapdragon 8 Gen 1 chipset, 10090 mAh battery, 512 GB storage, 16 GB RAM, Corning Gorilla Glass 5."
+  },
+  {
+    "id": "samsung_galaxy_tab_s8-11343",
+    "name": "Galaxy Tab S8",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-s8.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy Tab S8 Android tablet. Announced Feb 2022. Features 11.0″  display, Snapdragon 8 Gen 1 chipset, 8000 mAh battery, 256 GB storage, 12 GB RAM, Corning Gorilla Glass 5."
+  },
+  {
+    "id": "samsung_galaxy_s21_fe_5g-10954",
+    "name": "Galaxy S21 FE 5G",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s21-fe-5g.jpg",
+    "price":"199",
+    "description": "Samsung Galaxy S21 FE 5G Android smartphone. Announced Jan 2022. Features 6.4″  display, Snapdragon 888 5G chipset, 4500 mAh battery, 256 GB storage, 8 GB RAM, Corning Gorilla Glass Victus."
+  }
+]}

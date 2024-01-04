@@ -1,0 +1,156 @@
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.categories {
+    width: 30%;
+    border: 3px solid rgb(255, 255, 255);
+    /* padding-top: 5px; */
+}
+
+.optionContainer{
+    
+}
+.options {
+    display: flex;
+    width: 100%;
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 0%;
+    background-color: aliceblue;
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    background-color: RGBA(var(--bs-dark-rgb), var(--bs-bg-opacity, 1));
+}
+
+.option img {
+    width: 60%;
+}
+
+.content {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    background-color: RGBA(var(--bs-dark-rgb), var(--bs-bg-opacity, 1));
+    height:77vh;
+    overflow:hidden scroll;
+    justify-items: center;;
+}
+
+.contentImg {
+    width: 50%;
+    padding-bottom: 10px;
+
+}
+
+
+
+.query-part {
+    padding-left: 5vw;
+    padding-top: 5vw;
+    padding-bottom: 30vh;
+}
+
+.heading {
+    font-size: 3rem;
+    margin-bottom: 2vh;
+}
+
+.query {
+    width: 35%;
+    border: 2px solid;
+    border-radius: 5px;
+    height: 25vh;
+    padding: 1rem;
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+}
+
+.submitQuery {
+    width: 12%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: #9BDCEB;
+    font-size: 1.5rem;
+}
+
+.submitQuery img {
+    width: 30%;
+}
+
+.suggestion-part {
+    margin: auto;
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.suggestedDoc {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 5rem;
+
+}
+
+.suggestion {
+    width: 30%;
+    background-color: rgb(180, 180, 180);
+    height: 50vh;
+    margin-bottom: 20rem;
+    border-radius: 20px;
+}
+
+.container {
+    margin: auto;
+    width: 90%;
+    height: 80vh;
+    border: 3px solid rgb(255, 255, 255);
+    margin-top: 20px;
+
+}
+
+
+
+
+
+.active {
+    background-color: #3ad1f3 !important;
+}
+
+.active img {
+    background-color: #3ad1f3 !important;
+}
+
+.active a {
+    background-color: #3ad1f3 !important;
+    color: black !important;
+}
+
+.visible {
+    display: block !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .heading {
+        font-size: 2rem;
+    }
+
+    .query {
+        width: 85%;
+    }
+}
