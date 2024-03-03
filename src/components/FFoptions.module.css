@@ -19,7 +19,6 @@ a{
     font-size: 0.75rem;
     text-align: center;
     padding: 0%;
-    background-color: aliceblue;
     border-bottom: 3px solid rgb(255, 255, 255);
 }
 
@@ -28,7 +27,6 @@ a{
     flex-direction: column;
     align-items: center;
     width: 20%;
-    background-color: RGBA(var(--bs-dark-rgb), var(--bs-bg-opacity, 1));
 }
 
 .option img {
@@ -39,7 +37,6 @@ a{
     display: grid;
     gap: 5px;
     grid-template-columns: 1fr 1fr;
-    background-color: RGBA(var(--bs-dark-rgb), var(--bs-bg-opacity, 1));
     height:77vh;
     overflow:hidden scroll;
     justify-items: center;;

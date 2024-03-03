@@ -1,13 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './routes/App'
+import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import LandingPage from './routes/LandingPage'
-import Mainpage from './routes/Mainpage'
 import { DndProvider } from 'react-dnd'
 import { HTML5Backend } from 'react-dnd-html5-backend'
 import { Provider } from "react-redux";
 import siteStore from './store'
+import CreatePage from './routes/CreatePage'
+import FaceMatching from './routes/FaceMatching'
 
 const router=createBrowserRouter([{
   path:'/',
@@ -18,12 +20,16 @@ const router=createBrowserRouter([{
       element:<LandingPage />
     },
     {
-      path: '/main',
-      element: <Mainpage/>
+      path: '/create',
+      element: <CreatePage/>
+    },
+    {
+      path:"/match",
+      element: <FaceMatching/>
     },
     {
       path: '/community',
-      element: <Mainpage />
+      // element: <Mainpage />
     },
 
   ]
