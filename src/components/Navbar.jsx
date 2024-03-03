@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -31,14 +31,14 @@ const Navbar = () => {
 
     return <>
         <div className="flex text-black justify-between p-2" >
-            <NavLink to='/'>
+            <Link to='/'>
                 <img src="./logoDark.svg" className="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap" alt="" />
-            </NavLink>
+            </Link>
             <ul className="text-black flex">
                 {
                     pages.map(item => (
 
-                        <li key={item.text}><NavLink to={item.route} className="nav-NavLink px-2 text-black">{item.text}</NavLink></li>
+                        <li key={item.text}><NavLink to={item.route} className="nav-NavLink px-2 text-black" style={({ isActive }) => (isActive ? { backgroundColor: "#0d6efd", color: "white" } : {})}>{item.text}</NavLink></li>
                     ))
                 }
             </ul>
