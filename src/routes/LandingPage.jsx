@@ -2,12 +2,13 @@ import { Link } from "react-router-dom";
 
 const LandingPage = () => {
     return <>
-        <div className='flex p-4 items-center'>
+        <div className='flex p-4 items-center bg-gray-300'>
             <div className="">
-                <h1 className="text-3xl font-semibold" >Create forensic sketch <br /> in a minute like 🫰</h1>
-                <p className="font-medium" >Effortlessly create intricate face sketches through our intuitive drag-and-drop interface, streamlining the process for artists at any level, simplifying intricate designs with easy manipulation and precision.</p>
+                <h1 className="text-3xl font-semibold">Create Forensic Sketch with Ease</h1> <br></br>
+                <p className="font-normal text-base" >Get a simple and convenient method to create face sketches using our intuitive drag-and-drop interface.These sketches can then be compared with images in the criminal database to speed up investigations.</p>
+                <br></br>
                 <div className=" border-4 rounded-md w-fit border-black">
-                    <Link to="/create" type="button" className="p-2  hover:bg-sky-700 text-black hover:text-white">Lets get started</Link>
+                    <Link to="/create" type="button" className="py-2 px-4 bg-blue-700 text-white hover:bg-blue-600">Get Started</Link>
                 </div>
             </div>
             <div className="">

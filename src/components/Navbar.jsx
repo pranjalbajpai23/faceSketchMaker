@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -10,15 +10,15 @@ const Navbar = () => {
             route: '/home'
         },
         {
-            text: "Create Sketch",
+            text: "Create a Sketch",
             route: "/create"
         },
         {
-            text: "Face Matching",
+            text: "Compare",
             route: "/match"
         },
         {
-            text: "community",
+            text: "Community",
             route: "/community"
         },
         {
@@ -30,21 +30,22 @@ const Navbar = () => {
     
 
     return <>
-        <div className="flex text-black justify-between p-2" >
-            <Link to='/'>
+        <div className="flex text-black justify-between p-2 bg-gray-300" >
+            <NavLink to='/'>
                 <img src="./logoDark.svg" className="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap" alt="" />
-            </Link>
-            <ul className="text-black flex">
+            </NavLink>
+            <ul className="text-black flex py-2 ">
                 {
                     pages.map(item => (
 
-                        <li key={item.text}><NavLink to={item.route} className="nav-NavLink px-2 text-black" style={({ isActive }) => (isActive ? { backgroundColor: "#0d6efd", color: "white" } : {})}>{item.text}</NavLink></li>
+                        <li key={item.text}><NavLink to={item.route} className="nav-NavLink px-4 text-black hover:underline">{item.text}</NavLink></li>
                     ))
                 }
             </ul>
             <div className="">
-                <button type="button" className="px-2">Login</button>
-                <button type="button" className="px-2">Sign-up</button>
+                <button type="button" className="py-2 px-4 mr-4 bg-blue-700 text-white hover:bg-blue-600">Login</button>
+                
+                <button type="button" className="py-2 px-4 mr-4 bg-blue-700 text-white hover:bg-blue-600">Sign Up</button>
             </div>
 
         </div>

@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 const FFoptions=()=>{
 
-    //capatalize head, lips, chnage name in folder also 
+    //capatalize head, lips, change name in folder also 
 
     const [optionSelected, setOption] = useState("head");
     const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
