@@ -1,5 +1,5 @@
-const Communuty=()=>{
+const Community=()=>{
     return<>
     </>
 }
-export default Communuty;
+export default Community;

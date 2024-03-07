@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const LandingPage = () => {
     return <>
-        <div className='flex p-4 items-center bg-gray-300 h-dvh'>
+        <div className='flex p-4 items-center bg-gray-200 h-dvh'>
             <div className="">
                 <h1 className="text-3xl font-semibold">Create Forensic Sketch with Ease</h1> <br></br>
                 <p className="font-normal text-base" >Get a simple and convenient method to create face sketches using our intuitive drag-and-drop interface.These sketches can then be compared with images in the criminal database to speed up investigations.</p>

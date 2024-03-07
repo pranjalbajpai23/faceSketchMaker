@@ -30,7 +30,7 @@ const Navbar = () => {
 
 
     return <>
-        <div className="flex text-black justify-between p-2 bg-gray-300" >
+        <div className="flex text-black justify-between p-2 bg-white-200" >
             <NavLink to='/'>
                 <img src="./logoDark.svg" className="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap" alt="" />
             </NavLink>
@@ -38,7 +38,7 @@ const Navbar = () => {
                 {
                     pages.map(item => (
 
-                        <li key={item.text}><NavLink to={item.route} className="nav-NavLink  mx-4 text-black hover:border-b-2 border-black"
+                        <li key={item.text}><NavLink to={item.route} className="nav-NavLink  mx-4 text-black font-bold hover:border-b-2 border-black"
                             style={({ isActive }) => (isActive ? { borderBottom: "2px solid black" } : {})} >{item.text}</NavLink></li>
                     ))
                 }
