@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -24,7 +24,8 @@ const Navbar = () => {
         {
             text: "About",
             route: "/about",
-        }
+        },
+
 
     ]
 
@@ -44,9 +45,7 @@ const Navbar = () => {
                 }
             </ul>
             <div className="">
-                <button type="button" className="py-2 px-4 mr-4 rounded-md bg-blue-700 text-white hover:bg-blue-600 ">Login</button>
-
-                <button type="button" className="py-2 px-4 mr-4 rounded-md bg-blue-700 text-white hover:bg-blue-600 ">Sign Up</button>
+                <Link to='/Login'  type="button" className="py-2 px-4 mr-4 rounded-md bg-blue-700 text-white hover:bg-blue-600 ">Login</Link>
             </div>
 
         </div>

@@ -11,6 +11,7 @@ import siteStore from './store'
 import CreatePage from './routes/CreatePage'
 import FaceMatching from './routes/FaceMatching'
 import Community from './routes/Community'
+import Login from './routes/Login'
 
 const router=createBrowserRouter([{
   path:'/',
@@ -32,6 +33,10 @@ const router=createBrowserRouter([{
       path: '/community',
       element:<Community/>
     },
+    {
+      path:'/login',
+      element:<Login/>
+    }
 
   ]
 }])
