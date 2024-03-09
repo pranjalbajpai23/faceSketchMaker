@@ -1,9 +1,10 @@
+import { useReducer } from "react";
 import { Link, NavLink } from "react-router-dom";
 
 
 const Navbar = () => {
 
-
+    const auth=useReducer(state=>state.authSlice);
     const pages = [
         {
             text: "Home",
@@ -45,6 +46,9 @@ const Navbar = () => {
                 }
             </ul>
             <div className="">
+                {
+                    
+                }
                 <Link to='/Login'  type="button" className="py-2 px-4 mr-4 rounded-md bg-blue-700 text-white hover:bg-blue-600 ">Login</Link>
             </div>
 
