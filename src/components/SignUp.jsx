@@ -32,9 +32,14 @@ const SignUp = ({ setNewUser }) => {
                 setSuccess(true);
                 console.log(userCredential);
                 dispatch(authAction.setLogin({ name: userCredential.user.email, login: true }));
-                navigate('/')
+                setSuccess(true);
+                setTimeout(() => {
+                    navigate('/')
+                }, 2000)
+
             })
             .catch((error) => {
+                setErr("Invalid email Id or Password");
                 console.log(error);
             });
     };
@@ -52,8 +57,8 @@ const SignUp = ({ setNewUser }) => {
                     <form className="flex flex-col text-lg" onSubmit={signUp}>
                         <label htmlFor="email" ref={emailRef}>Email</label>
                         <input className="border-2 mb-2" type="email" id="email" value={email} onChange={(e) => setemail(e.target.value)} />
-                        <label htmlFor="pasword" type="password" >Create Password</label>
-                        <input className="border-2 mb-2" type="password" id="password" value={pwd} onChange={(e) => setPwd(e.target.value)} />
+                        <label htmlFor="pasword" type="password"  >Create Password</label>
+                        <input className="border-2 mb-2" type="password" id="password" value={pwd} onChange={(e) => setPwd(e.target.value)} placeholder="Should be atleast 6 characters" />
                         <button
                             className="bg-black text-white hover:bg-white hover:text-black hover:border-2 border-black  p-2 px-4 rounded-md align-center mb-2"
                         >Register</button>
