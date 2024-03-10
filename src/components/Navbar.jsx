@@ -1,10 +1,15 @@
-import { useReducer } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { Link, NavLink, useNavigate } from "react-router-dom";
+import { authAction } from "../store/authSlice";
 
 
 const Navbar = () => {
 
-    const auth=useReducer(state=>state.authSlice);
+    const auth = useSelector(state => state.auth);
+    const [name, setName] = useState("");
+    const dispatch = useDispatch();
+    const navigate = useNavigate();
     const pages = [
         {
             text: "Home",
@@ -29,8 +34,15 @@ const Navbar = () => {
 
 
     ]
+    console.log(auth);
+    useEffect(() => {
+        const tempName = auth.name.split("@")[0];
+        setName(tempName);
+    }, [auth])
 
-
+    const Logout = () => {
+        dispatch(authAction.setLogout());
+    }
     return <>
         <div className="flex text-black justify-between p-2 bg-white-200" >
             <NavLink to='/'>
@@ -47,9 +59,15 @@ const Navbar = () => {
             </ul>
             <div className="">
                 {
-                    
+                    auth.login == true ?
+                        <div className="flex items-center">
+                            <span>{name}</span>
+                            <img src="person.svg" className="w-8 h-8 mx-2" />
+                            <Link type="button" className="py-2 px-4 mr-4 rounded-md bg-blue-700 text-white hover:bg-blue-600 " onClick={Logout}>Logout</Link>
+                        </div>
+                        :
+                        <Link to='/Login' type="button" className="py-2 px-4 mr-4 rounded-md bg-blue-700 text-white hover:bg-blue-600 ">Login</Link>
                 }
-                <Link to='/Login'  type="button" className="py-2 px-4 mr-4 rounded-md bg-blue-700 text-white hover:bg-blue-600 ">Login</Link>
             </div>
 
         </div>

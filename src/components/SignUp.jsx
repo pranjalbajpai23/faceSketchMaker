@@ -3,6 +3,8 @@ import { createUserWithEmailAndPassword } from "firebase/auth";
 import { useEffect, useRef, useState } from "react";
 import { auth } from "../firebase";
 import { Link, useNavigate } from "react-router-dom";
+import { authAction } from "../store/authSlice";
+import { useDispatch } from "react-redux";
 
 const SignUp = ({ setNewUser }) => {
 
@@ -15,7 +17,7 @@ const SignUp = ({ setNewUser }) => {
     const [err, setErr] = useState("");
     const [success, setSuccess] = useState(false);
     const navigate = useNavigate();
-
+    const dispatch = useDispatch();
     useEffect(() => {
         emailRef.current.focus();
     }, [])
@@ -29,6 +31,7 @@ const SignUp = ({ setNewUser }) => {
             .then((userCredential) => {
                 setSuccess(true);
                 console.log(userCredential);
+                dispatch(authAction.setLogin({ name: userCredential.user.email, login: true }));
                 navigate('/')
             })
             .catch((error) => {
@@ -50,7 +53,7 @@ const SignUp = ({ setNewUser }) => {
                         <label htmlFor="email" ref={emailRef}>Email</label>
                         <input className="border-2 mb-2" type="email" id="email" value={email} onChange={(e) => setemail(e.target.value)} />
                         <label htmlFor="pasword" type="password" >Create Password</label>
-                        <input className="border-2 mb-2" type="password" id="password" value={pwd} onChange={(e) => setPwd(e.target.value)}  />
+                        <input className="border-2 mb-2" type="password" id="password" value={pwd} onChange={(e) => setPwd(e.target.value)} />
                         <button
                             className="bg-black text-white hover:bg-white hover:text-black hover:border-2 border-black  p-2 px-4 rounded-md align-center mb-2"
                         >Register</button>

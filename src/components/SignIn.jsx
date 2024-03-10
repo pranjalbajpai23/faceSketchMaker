@@ -1,15 +1,14 @@
 /* eslint-disable react/prop-types */
 import { signInWithEmailAndPassword } from "firebase/auth";
-import { useEffect, useReducer, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { auth } from "../firebase";
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import authSlice from "../store/authSlice";
+import { authAction } from "../store/authSlice";
 
 const SignIn = ({ setNewUser }) => {
 
-    const dispatch=useDispatch();
-    const {auth}=useReducer(state=>state.authSlice);
+    const dispatch = useDispatch();
     const usrNameRef = useRef();
     const errorRef = useRef();
 
@@ -30,7 +29,7 @@ const SignIn = ({ setNewUser }) => {
         signInWithEmailAndPassword(auth, usrName, pwd)
             .then((userCredential) => {
                 console.log(userCredential.user.email);
-                dispatch(authSlice.actions.setLogin({name:userCredential.user.email,login:true}))
+                dispatch(authAction.setLogin({ name: userCredential.user.email, login: true }));
                 navigate('/')
             })
             .catch((error) => {
