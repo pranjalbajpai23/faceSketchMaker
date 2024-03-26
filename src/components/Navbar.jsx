@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { Link, NavLink, useNavigate } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { authAction } from "../store/authSlice";
 
 
@@ -9,7 +9,6 @@ const Navbar = () => {
     const auth = useSelector(state => state.auth);
     const [name, setName] = useState("");
     const dispatch = useDispatch();
-    const navigate = useNavigate();
     const pages = [
         {
             text: "Home",
@@ -26,6 +25,10 @@ const Navbar = () => {
         {
             text: "Community",
             route: "/community"
+        },
+        {
+            text: "Notification",
+            route: "/notify"
         },
         {
             text: "About",

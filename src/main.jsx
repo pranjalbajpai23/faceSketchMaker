@@ -12,30 +12,35 @@ import CreatePage from './routes/CreatePage'
 import FaceMatching from './routes/FaceMatching'
 import Community from './routes/Community'
 import Login from './routes/Login'
+import GetNotification from './routes/GetNotification'
 
-const router=createBrowserRouter([{
-  path:'/',
-  element:<App />,
-  children:[
+const router = createBrowserRouter([{
+  path: '/',
+  element: <App />,
+  children: [
     {
-      path:'/',
-      element:<LandingPage />
+      path: '/',
+      element: <LandingPage />
     },
     {
       path: '/create',
-      element: <CreatePage/>
+      element: <CreatePage />
     },
     {
-      path:"/match",
-      element: <FaceMatching/>
+      path: "/match",
+      element: <FaceMatching />
     },
     {
       path: '/community',
-      element:<Community/>
+      element: <Community />
     },
     {
-      path:'/login',
-      element:<Login/>
+      path: '/notify',
+      element: <GetNotification />
+    },
+    {
+      path: '/login',
+      element: <Login />
     }
 
   ]
@@ -45,7 +50,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={siteStore}>
       <DndProvider backend={HTML5Backend}>
-        <RouterProvider router={router}/>
+        <RouterProvider router={router} />
       </DndProvider>
     </Provider>
   </React.StrictMode>,
