@@ -5,4 +5,5 @@ const pushHandler= require("../controllers/pushController");
 
 router.post("/", pushHandler.handlePush);
 
+
 module.exports = router;

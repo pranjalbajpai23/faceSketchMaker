@@ -14,6 +14,7 @@ const handlePublish = (req, res) => {
     const detail = data.split(",");
     const name = detail[0].trim(); // Trim whitespace characters
     const pic = detail[1].trim();
+
     return res.status(200).json({ name: name, pic: pic });
   });
 };

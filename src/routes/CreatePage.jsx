@@ -21,6 +21,11 @@ const CreatePage = () => {
                 >
                     Print
                 </button>
+                <button className="btn" style={{ backgroundColor: "white", marginTop: "10px" }}
+                    // add a function for reseting dropboard
+                >
+                    Reset
+                </button>
             </div>
         </>
     );

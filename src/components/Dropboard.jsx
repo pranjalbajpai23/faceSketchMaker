@@ -14,7 +14,6 @@ const Dropboard = ({exposedRef}) => {
         if (element) {
             html2canvas(element).then((canvas) => {
                 const imgSrc = canvas.toDataURL('image/png');
-
                 const link = document.createElement('a');
                 link.href = imgSrc;
                 link.download = 'dropboard_screenshot.png';
