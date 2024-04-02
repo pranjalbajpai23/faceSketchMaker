@@ -30,10 +30,6 @@ const Navbar = () => {
             text: "Notification",
             route: "/notify"
         },
-        {
-            text: "About",
-            route: "/about",
-        },
 
 
     ]
