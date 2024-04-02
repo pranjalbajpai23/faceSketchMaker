@@ -1,11 +1,11 @@
 /* eslint-disable react/prop-types */
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import styles from './Dragdrop.module.css'
 import Sketch from './Sketch';
 import { useDrop } from 'react-dnd';
 import html2canvas from 'html2canvas';
 
-const Dropboard = ({exposedRef}) => {
+const Dropboard = ({exposedRef,clear,setClear}) => {
 
     const boardRef = useRef(null);
     const downloadScreenshot = () => {
@@ -46,7 +46,10 @@ const Dropboard = ({exposedRef}) => {
             [item.category]: item,
         }));
     };
-
+    useEffect(()=>{
+        setLatestElementsByCategory([]);
+        setClear(false)
+    },[clear,setClear])
     return (
         < >
             <div ref={boardRef} style={{width:"70%"}}>

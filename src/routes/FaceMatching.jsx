@@ -24,19 +24,20 @@ function App() {
             });
 
 
-
+            setMatchedImages([])
             console.log(response.data);
-            setMatchedImages(response.data.matched_images);
+            setMatchedImages(response.data);
         } catch (error) {
             console.error('Error uploading file: ', error);
         }
     };
     const pushNotification = async () => {
+        console.log(matchedImages[0])
         const response = await fetch('http://localhost:3500/notify', {
             method: 'POST',
             body: new URLSearchParams({
-                name: matchedImages[0].match(/([^\\]+)(?=\.\w+$)/)[0],
-                pic: matchedImages[0]
+                name: matchedImages[0].identity,
+                pic: matchedImages[0].identity
             })
         })
         const data = await response.json();
@@ -55,25 +56,39 @@ function App() {
                 <button className='border-black border-2 p-2 rounded-md' onClick={handleUpload}>Upload</button>
             </div>
 
-            <div className='flex justify-evenly mt-4'>
+            <div className='flex flex-col items-center justify-evenly mt-4'>
                 <div>
                     <img src={selectedFile} style={{ width: "20vw" }} alt="" />
                     <p className='text-center'>Uploaded Sketch</p>
                 </div>
-                <div style={{ backgroundColor: "black", width: "1vh" }} />
-                <div>
-                    {matchedImages.map((matchedImage, index) => (
-                        <div key={index}>
+                <div className='text-lg font-bold py-4'>
+                    Matched Images
+                </div>
+                <div className='flex '>
 
-                            <img src={matchedImage} alt={`Matched image for ${matchedImage}`} style={{ width: "20vw" }} />
-                            <p className='text-center'>Matched Image</p>
-                            <p className='text-center'>Person Name: {matchedImage.match(/([^\\]+)(?=\.\w+$)/)[0]}</p>
-                            <p className='text-center'>Matched %: 90%</p>
-                        </div>
-                    ))}
+                    {
+                        matchedImages.length == 0 ?
+                            <div>
+                                No Image Found
+                            </div>
+
+
+                            :
+
+                            matchedImages.map((item) => (
+                                <div key={item.identity} className='px-2'>
+                                    <img src={item.identity} alt={`Matched image for ${item}`} style={{ width: "20vw" }} />
+                                    <p className='text-left'>Matched Image</p>
+                                    <p className='text-left'>Person Name: {item.identity.match(/([^\\]+)(?=\.\w+$)/)[0]}</p>
+                                    <p className='text-left'>Matched Percentage: {((1 - item.distance) * 100).toFixed(2)}%</p>
+                                </div>
+                            ))
+                    }
+
                 </div>
             </div>
             <button className='border-2 border-black p-2 m-2 rounded-md hover:text-white hover:bg-black' onClick={pushNotification}>Push Notification</button>
+            <div>*Note - Push Notification will send heighest matching image </div>
         </div>
     );
 }

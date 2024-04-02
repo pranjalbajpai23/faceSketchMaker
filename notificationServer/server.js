@@ -23,9 +23,13 @@ app.use(express.urlencoded({ extended: false }));
 //end points we have created
 app.use("/notify", require("./routes/push"));
 app.use("/publish", require("./routes/publish"));
+
+
 //     - notify - we are puting the criminal - put
 //api-|
 //     - publish - we are getting the detials of criminal that we have to find -get
+
+
 app.listen(PORT, () => {
   console.log(`server started at port ${PORT}`);
 });

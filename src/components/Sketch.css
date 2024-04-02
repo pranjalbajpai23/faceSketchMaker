@@ -9,32 +9,44 @@
 }
 
 .eyebrows {
-    width: 10vw;
+    width: 10rem;
     z-index: 1;
     position: relative;
     top: -1.5rem;
 }
 .nose{
-    width: 3vw;
+    width: 3rem;
     z-index: 4;
     position: relative;
-    bottom: -36px;
+    bottom: -2rem;
 }
 .lips{
-    width: 5vw;
+    width: 5rem;
     z-index: 5;
     position: relative;
-    bottom: -5vw;
-    margin-top:33px;
+    bottom: -5.5rem;
+
 }
 .mustache{
-    width: 5vw;
+    width: 5rem;
     position: relative;
-    bottom: -4vw;
     z-index: 5;
-    top:4.5rem;
+    top: 4.5rem;
 }
-
+.mustache2{
+    top:4.3rem;
+    width: 5.5rem;
+}
+.mustache5,.mustache7,.mustache8,.mustache9{
+    width: 6.2rem;
+}
+.mustache7{
+    top:4.2rem
+}
+.mustache10{
+    top:4.3rem;
+    width: 5.5rem;
+}
 .hair3{
     width: 25rem;
 }
