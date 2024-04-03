@@ -16,7 +16,7 @@ const CreatePage = () => {
     }
     return (
         <>
-            <div className="bg-slate-800 flex flex-wrap justify-center p-2">
+            <div className="bg-cyan-900 flex flex-wrap justify-center p-2">
                 <FFoptions />
                 <Dropboard exposedRef={dropboardRef} clear={clear} setClear={setClear} />
                 <button className="btn mx-2" style={{ backgroundColor: "white", marginTop: "10px" }}

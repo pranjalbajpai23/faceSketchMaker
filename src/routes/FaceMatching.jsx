@@ -53,7 +53,7 @@ function App() {
         <div className='flex flex-col items-center'>
             <div className='flex flex-col  items-center'>
                 <input className='border-black border-2  rounded-md mb-4' type="file" onChange={handleFileInputChange} />
-                <button className='border-black border-2 p-2 rounded-md' onClick={handleUpload}>Upload</button>
+                <button className='cursor-pointer inline-flex items-center px-4 py-2 bg-blue-500 text-white rounded-md shadow-sm hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2' onClick={handleUpload}>Upload</button>
             </div>
 
             <div className='flex flex-col items-center justify-evenly mt-4'>
@@ -88,7 +88,7 @@ function App() {
                 </div>
             </div>
             <button className='border-2 border-black p-2 m-2 rounded-md hover:text-white hover:bg-black' onClick={pushNotification}>Push Notification</button>
-            <div>*Note - Push Notification will send heighest matching image </div>
+            <div>*Note - Push Notification will send highest matching image </div>
         </div>
     );
 }
