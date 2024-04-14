@@ -22,7 +22,7 @@ const GetNotification = () => {
         const intervalId = setInterval(getPublishedCriminals, 10000); // 10 seconds
 
         return () => clearInterval(intervalId);
-    }, [criminal])
+    }, [])
     return <>
         <div className="flex flex-col items-center">
             <div className="text-xl font-bold">Notification for following criminal have been issued</div>
