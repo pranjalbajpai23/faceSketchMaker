@@ -1,1 +1,1 @@
-faces\f1-006-01.jpg,faces\f1-006-01.jpg
+faces\m1-025-01.jpg,faces\m1-025-01.jpg
