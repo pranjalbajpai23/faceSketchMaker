@@ -43,6 +43,9 @@ function App() {
         const data = await response.json();
         if (response.ok) {
             console.log(data)
+            const response = await fetch('http://localhost:3500/publish', {
+                method: 'GET'
+            })
         }
         else {
             console.log(data)
@@ -58,7 +61,7 @@ function App() {
 
             <div className='flex flex-col items-center justify-evenly mt-4'>
                 <div>
-                    <img src={selectedFile} style={{ width: "20vw" }} alt="" />
+                    <img src={selectedFile} style={{ width: "10vw" }} alt="" />
                     <p className='text-center'>Uploaded Sketch</p>
                 </div>
                 <div className='text-lg font-bold py-4'>
@@ -77,7 +80,7 @@ function App() {
 
                             matchedImages.map((item) => (
                                 <div key={item.identity} className='px-2'>
-                                    <img src={item.identity} alt={`Matched image for ${item}`} style={{ width: "20vw" }} />
+                                    <img src={item.identity} alt={`Matched image for ${item}`} style={{ width: "10vw" }} />
                                     <p className='text-left'>Matched Image</p>
                                     <p className='text-left'>Person Name: {item.identity.match(/([^\\]+)(?=\.\w+$)/)[0]}</p>
                                     <p className='text-left'>Matched Percentage: {((1 - item.distance) * 100).toFixed(2)}%</p>
