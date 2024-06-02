@@ -1,14 +1,15 @@
 /* eslint-disable no-undef */
 const fs = require("fs");
 const path = require("path");
-//Yaha par add karna hai  code
-//*************************** */
-//*************************** */
-//*************************** */
-//*************************** */
-//*************************** */
+const client = require("twilio")(
+  "Twilio SID 1",
+  "Twilio SID 2"
+);
+const phoneNumbers = ["Phone number of station 1", "Phone number of station 2"];
+
 
 const handlePublish = (req, res) => {
+  console.log("hello");
   // Path to the file within the modal folder
   const filePath = path.join(__dirname, "../modal/criminal.txt");
   // Read the content of the file
@@ -22,7 +23,7 @@ const handlePublish = (req, res) => {
     const pic = detail[1].trim();
     var link=pic.split("\\");
     link=link[1];
-    const message = `Hello Officer you have an new notification\n \n Name: ${name}`;
+    const message = `Hello Officer you have a new notification\n \n Name: ${name}`;
     console.log(link);
     const lastPhotoSent = path.join(__dirname, "../modal/sent.txt");
     fs.readFile(lastPhotoSent, "utf8", (err, data)=>{
@@ -37,7 +38,7 @@ const handlePublish = (req, res) => {
             })
             .then((message) => {
               console.log("Message sent successfully", message);
-              if (phoneNumber == "6386674090") {
+              if (phoneNumber == "Phone number of station 2") {
                 fs.writeFile(lastPhotoSent, link, (err) => {
                   if (err) {
                     console.error("Error saving data:", err);
