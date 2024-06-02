@@ -35,12 +35,9 @@ Before you begin, ensure you have the following installed on your machine:
    Navigate to the `notification_server` folder, then go to `controllers > publishHandler.js` and enter your Twilio SID and WhatsApp number in the required places in the code:
    ```j
    //Example entry (replace with your actual credentials)
-   const client = require("twilio")(
-  "Twilio SID 1",
-  "Twilio SID 2"
-   );
-  const phoneNumbers = ["Phone number of station 1", "Phone number of station 2"]; 
-  ```
+   const client = require("twilio")( "Twilio SID 1","Twilio SID 2" );
+   const phoneNumbers = ["Phone number of station 1", "Phone number of station 2"]; 
+   ```
 
 5. **Start the Notification Server:**
    Open the `notificationServer` folder in your terminal:
